@@ -1,0 +1,26 @@
+
+body{margin: 0}
+.renkarka_amber{
+    background-color: #FFA725;
+}
+.renkyazi_amber{
+    color: #FFA725;
+}
+.renkarka_white{
+    background-color: #FFF5E4;
+}
+.renkyazi_white{
+    color: #FFF5E4;
+}
+.renkarka_green{
+    background-color: #C1D8C3;
+}
+.renkyazi_green{
+    color: #C1D8C3;
+}
+.renkarka_darkgreen{
+    background-color: #6A9C89;
+}
+.renkyazi_darkgreen{
+    color: #6A9C89;
+}
