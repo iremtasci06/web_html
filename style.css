@@ -1,0 +1,76 @@
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{height: 100%;}
+html{height: 100%;}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    padding: 40px;
+    height: 10%;
+    background-color: #FFA725;
+    color: whitesmoke;
+}
+header h1{
+    float: left;
+}
+.sub-header{
+    padding: 40px;
+    height: 10%;
+}
+.sub-header h2{
+    margin-bottom: 10px;
+}
+#cover{
+    background-color: #FFA725;
+    height: 100%;
+    opacity: 0.2;
+}
+.headerimg{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/sofra.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#tarifler{
+    width: 100%;
+}
+.tarif-detail{
+    width: 28%;
+    border: 2px solid #FFA725;
+    text-align: center;
+    padding: 50px;
+    height: 620px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    float: left;
+}
+.tarif-detail h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.tarif-detail img{
+    width: 200px;
+    height: 200px;
+}
+.recipe{
+    padding: 10px;
+}
+#sorusor{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+#sorusor h3{
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 20px;
+    padding: 40px;
+    height: 20%;
+    background-color: #FFA725;
+}
