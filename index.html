@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lezzetli Yemeklerim</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <header > 
+        <h1 >YEMEK TARİFLERİ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="#sorusor">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="headerimg">
-        <header > 
-            <h1 >YEMEK TARİFLERİ</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Anasayfa</a></li>
-                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                    <li><a href="#">İletişim</a></li>
-                </ul>
-            </nav>
-           
-        </header>
         <div id="cover">
             <aside class="sub-header">
                 <h2>Mutlaka denemeniz gereken o yemekler...</h2>
@@ -27,13 +27,43 @@
             </aside>
         </div>
     </main>
+    <div class="articles">
+        <div class="article-item" style="margin-left: 20px;">
+            <div class="i-style"><i class="fa-solid fa-utensils"></i></div>
+            <h3 class="article-item-head">HOT FOODS</h3>
+            <p class="article-item-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo asperiores tempore omnis provident, perspiciatis, illo sit iusto repellat ullam temporibus sed atque vitae corrupti dolor minima cum ad esse quasi.</p>
+        </div>
+        <div class="article-item">
+            <div class="i-style"><i class="fa-solid fa-clock"></i></div>
+            <h3 class="article-item-head">FAST ORDER</h3>
+            <p class="article-item-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo asperiores tempore omnis provident, perspiciatis, illo sit iusto repellat ullam temporibus sed atque vitae corrupti dolor minima cum ad esse quasi.</p>
+        </div>
+        <div class="article-item">
+            <div class="i-style"><i class="fa-solid fa-face-smile"></i></div>
+            <h3 class="article-item-head">PLEASURE</h3>
+            <p class="article-item-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo asperiores tempore omnis provident, perspiciatis, illo sit iusto repellat ullam temporibus sed atque vitae corrupti dolor minima cum ad esse quasi.</p>
+        </div>
+        <div class="article-item">
+            <div class="i-style"><i class="fa-solid fa-tag"></i></div>
+            <h3 class="article-item-head">ABOUT</h3>
+            <p class="article-item-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo asperiores tempore omnis provident, perspiciatis, illo sit iusto repellat ullam temporibus sed atque vitae corrupti dolor minima cum ad esse quasi.</p>
+        </div>
+    </div>
+    <section class="hakkimizda-section">
+       <img src="images/hakkimizda.jpg" alt="restourant">
+       <div class="hakkimizda-div">
+        <p class="hakkimizda-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
+        Quos natus illo nisi distinctio libero nihil voluptatum minus, ratione, sit ipsum rerum eveniet doloribus omnis eum, nam architecto unde. Quod tempora eaque assumenda! Necessitatibus veritatis nobis soluta harum laboriosam?
+        Facere maxime laboriosam ea itaque deserunt culpa nulla autem magnam temporibus impedit, mollitia dolores nihil quasi, iure natus distinctio cumque ipsam repellendus. Libero, atque totam animi explicabo dicta minima porro?</p>
+        <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"><div style="margin-top: 30px; margin-left: 70%;" class="button"> MORE... </div></a>
+       </div>
+    </section>
     <main id="tarifler">
-            <section class="tarif-detail  ">
+            <section class="tarif-detail " style="margin-left: 100px;">
                 <h2>İÇLİ KÖFTE</h2>
                 <a href="iclikofte.html" target="_blank" title="içli köfte">
                     <img src="images/iclikofte.webp" alt="içli köfte">
-                  </a>
-                  
+                </a>
                 <article class="recipe ">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum doloremque tempore commodi, architecto quod quidem possimus? Beatae quaerat, placeat ex excepturi ratione ab fugit error modi ipsam! Obcaecati, ratione odio.
                     Quibusdam deleniti optio molestiae adipisci nesciunt repellendus nemo dolorum voluptatem maxime maiores veritatis, impedit excepturi unde consequuntur facere ipsam. Minima consequuntur et nostrum veritatis harum vero eum repellat quidem magni?
@@ -57,55 +87,61 @@
                 <article class="recipe">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cumque dignissimos vel quod vero laboriosam. Quas dolorem deserunt doloribus officiis repellendus sunt mollitia in expedita natus dolorum, asperiores tempore obcaecati?
                     Totam cumque quo praesentium reprehenderit in consectetur nobis veritatis, molestias tenetur voluptate, inventore, libero temporibus? Maxime magni aperiam repellendus consectetur itaque ipsa, inventore totam soluta aliquid, reiciendis, debitis fugiat molestias.
-                    Illo quisquam reiciendis excepturi optio maiores ab itaque recusandae laboriosam voluptatibus quo animi ullam repellendus molestias, dolorem voluptatum aliquid, ex laborum magnam voluptate explicabo a nam, nulla accusantium. Aliquid, sequi.</p>
+                    Illo quisquam reiciendis excepturi optio maiores ab itaque recusandae laboriosam voluptatibus quo animi ullam repellendus molestias, dolorem voluptatum aliquid, ex laborum magnam voluptate explicabo a nam</p>
                 </article>
                
-            </section>
+            </section>     
             <div class="clearfix"></div>
-        <section id="sorusor">
-            <h3>Sorularınız için iletişime geçin...</h3>
-            <form action="#" id="iletisim-form">
-              <table>
-                <tr>
-                    <td><label for="name">Adınız:</label></td>
-                    <td><input type="text" id="name"><br></td>
-                </tr>
-                <tr><td></td></tr>
-                <tr><td></td></tr>
-                <tr>
-                    <td><label for="surname">Soyadınız:</label></td>
-                    <td><input type="text" id="surname"><br></td>
-                </tr>
-                <tr><td></td></tr>
-                <tr><td></td></tr>
-                <tr>
-                    <td colspan="2"><p>Hangi yemek hakkında soruyorsunuz ?</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td> <input type="radio" id="icli" name="yemek">
-                        <label for="icli">İçli Köfte</label><br>
-                        <input type="radio" id="kf" name="yemek">
-                        <label for="kf">Kuru Fasülye</label><br>
-                        <input type="radio" id="plv" name="yemek">
-                        <label for="plv">Pilav</label><br></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><label for="sorun">Sorunuz nedir?</label></td>
-                </tr>
-                <tr>
-                    <td> <textarea  id="sorun" cols="40" rows="5"></textarea></td>
-                </tr>
-                <tr>
-                    <td>
-                        <button type="submit">Gönder</button>
-                        <button type="reset">Temizle</button>
-                    </td>
-                </tr>
-              </table>  
-            </form>
-        </section>
+        
     </main>
+    <section class="hakkimizda-section">
+        <div class="hakkimizda-div">
+            <p class="hakkimizda-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
+            Quos natus illo nisi distinctio libero nihil voluptatum minus, ratione, sit ipsum rerum eveniet doloribus omnis eum, nam architecto unde. Quod tempora eaque assumenda! Necessitatibus veritatis nobis soluta harum laboriosam?
+            Facere maxime laboriosam ea itaque deserunt culpa nulla autem magnam temporibus impedit, mollitia dolores nihil quasi, iure natus distinctio cumque ipsam repellendus. Libero, atque totam animi explicabo dicta minima porro?</p>
+            <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"><div style="margin-top: 30px; margin-left: 70%;" class="button"> MORE... </div></a>
+           </div>
+        <img src="images/hakkimizda2.jpg" alt="restourant">
+     </section>  
+     <section id="sorusor">
+        <div class="formback">
+        
+        <form action="#" id="iletisim-form">
+            <h3>Sorularınız için iletişime geçin...</h3>
+          <div class="form-group">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="surname">Soyadınız:</label>
+            <input type="text" id="surname" name="surname" required>
+          </div>
+      
+          <div class="form-group">
+            <p>Hangi yemek hakkında soruyorsunuz?</p>
+            <div>
+              <input type="radio" id="yemek" name="konu" value="yemek">
+              <label for="yemek">Yemek</label>
+            </div>
+            <div>
+              <input type="radio" id="siparis" name="konu" value="siparis">
+              <label for="siparis">Sipariş</label>
+            </div>
+          </div>
+      
+          <div class="form-group">
+            <label for="sorun">Sorunuz nedir?</label>
+            <textarea id="sorun" name="sorun" cols="40" rows="5" required></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit">Gönder</button>
+            <button type="reset">Temizle</button>
+          </div>
+        </form>
+        </div>
+      </section>
     <footer class="renkarka_amber">
         <p>Tüm Hakları Saklıdır.</p>
     </footer> 
