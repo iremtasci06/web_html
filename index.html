@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header > 
-        <h1 >YEMEK TARİFLERİ</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Anasayfa</a></li>
-                <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                <li><a href="#sorusor">İletişim</a></li>
+        <a class="header-logo" href="index.html">YEMEK TARİFLERİM</a>
+        <nav class="header-nav">
+            <ul class="header-nav-ul">
+                <li class="ul-li"><a class="li-a" href="index.html">ANASAYFA</a></li>
+                <li class="ul-li"><a class="li-a" href="hakkimizda.html">HAKKIMIZDA</a></li>
+                <li class="ul-li"><a class="li-a" href="#sorusor">İLETİŞİM</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +30,7 @@
         </div>
     </main>
     <div class="articles">
-        <div class="article-item" style="margin-left: 20px;">
+        <div class="article-item" >
             <div class="i-style"><i class="fa-solid fa-utensils"></i></div>
             <h3 class="article-item-head">HOT FOODS</h3>
             <p class="article-item-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo asperiores tempore omnis provident, perspiciatis, illo sit iusto repellat ullam temporibus sed atque vitae corrupti dolor minima cum ad esse quasi.</p>
@@ -49,15 +51,19 @@
             <p class="article-item-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo asperiores tempore omnis provident, perspiciatis, illo sit iusto repellat ullam temporibus sed atque vitae corrupti dolor minima cum ad esse quasi.</p>
         </div>
     </div>
+    <div class="clearfix"></div>
     <section class="hakkimizda-section">
-       <img src="images/hakkimizda.jpg" alt="restourant">
-       <div class="hakkimizda-div">
-        <p class="hakkimizda-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
-        Quos natus illo nisi distinctio libero nihil voluptatum minus, ratione, sit ipsum rerum eveniet doloribus omnis eum, nam architecto unde. Quod tempora eaque assumenda! Necessitatibus veritatis nobis soluta harum laboriosam?
-        Facere maxime laboriosam ea itaque deserunt culpa nulla autem magnam temporibus impedit, mollitia dolores nihil quasi, iure natus distinctio cumque ipsam repellendus. Libero, atque totam animi explicabo dicta minima porro?</p>
-        <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"><div style="margin-top: 30px; margin-left: 70%;" class="button"> MORE... </div></a>
-       </div>
-    </section>
+        <div class="col-2">
+            <img src="images/hakkimizda.jpg" alt="restourant">
+        </div>
+        <div class="col-2 features-right">
+         <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
+         Quos natus illo nisi distinctio libero nihil voluptatum minus, ratione, sit ipsum rerum eveniet doloribus omnis eum, nam architecto unde. Quod tempora eaque assumenda! Necessitatibus veritatis nobis soluta harum laboriosam?
+         Facere maxime laboriosam ea itaque deserunt culpa nulla autem magnam temporibus impedit, mollitia dolores nihil quasi, iure natus distinctio cumque ipsam repellendus. Libero, atque totam animi explicabo dicta minima porro?</p>
+         <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"> MORE... </a>
+        </div>
+     </section>
+
     <main id="tarifler">
             <section class="tarif-detail " style="margin-left: 100px;">
                 <h2>İÇLİ KÖFTE</h2>
@@ -65,9 +71,7 @@
                     <img src="images/iclikofte.webp" alt="içli köfte">
                 </a>
                 <article class="recipe ">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum doloremque tempore commodi, architecto quod quidem possimus? Beatae quaerat, placeat ex excepturi ratione ab fugit error modi ipsam! Obcaecati, ratione odio.
-                    Quibusdam deleniti optio molestiae adipisci nesciunt repellendus nemo dolorum voluptatem maxime maiores veritatis, impedit excepturi unde consequuntur facere ipsam. Minima consequuntur et nostrum veritatis harum vero eum repellat quidem magni?
-                    Vel dolores, distinctio aperiam molestias veniam minus maxime et, voluptates veritatis aliquam beatae earum perferendis nisi ad, doloribus pariatur unde alias provident? Quod laborum quasi doloribus expedita deleniti optio neque! </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse id illo voluptatibus incidunt odit perspiciatis mollitia! Molestiae facilis in cum. </p>
                 </article>
                
             </section>
@@ -75,9 +79,7 @@
                 <h2>Kuru Fasülye</h2>
                 <a href="images/kurufasulye.webp" target="_blank"><img src="images/kurufasulye.webp" alt="kurufasülye"></a>
                 <article class="recipe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab eius nisi esse tempora deserunt est at deleniti! Fugiat commodi est rem inventore nobis sapiente optio expedita laudantium deserunt ipsam!
-                    Id ex repudiandae maiores? Nisi tenetur similique non officiis reprehenderit ducimus? Est minima et alias totam reiciendis voluptates dolor sapiente, ipsam laudantium, suscipit fugit doloremque sunt minus dolorum aliquam ratione?
-                    Asperiores ducimus eum consequuntur corporis autem fuga id minus facilis et fugit provident, culpa dolorum doloremque modi officiis in, dignissimos voluptatem, aspernatur ullam placeat nihil consequatur. Voluptas consequatur qui quibusdam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim amet at fugit praesentium tempore asperiores error fugiat aut modi!</p>
                 </article>
                 
             </section>
@@ -85,9 +87,7 @@
                 <h2>Pilav</h2>
                 <a href="images/pilav.webp" target="_blank"><img src="images/pilav.webp" alt="pilav"></a>
                 <article class="recipe">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cumque dignissimos vel quod vero laboriosam. Quas dolorem deserunt doloribus officiis repellendus sunt mollitia in expedita natus dolorum, asperiores tempore obcaecati?
-                    Totam cumque quo praesentium reprehenderit in consectetur nobis veritatis, molestias tenetur voluptate, inventore, libero temporibus? Maxime magni aperiam repellendus consectetur itaque ipsa, inventore totam soluta aliquid, reiciendis, debitis fugiat molestias.
-                    Illo quisquam reiciendis excepturi optio maiores ab itaque recusandae laboriosam voluptatibus quo animi ullam repellendus molestias, dolorem voluptatum aliquid, ex laborum magnam voluptate explicabo a nam</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum debitis autem minus ratione animi id vero, laborum ipsa suscipit atque.</p>
                 </article>
                
             </section>     
@@ -95,54 +95,68 @@
         
     </main>
     <section class="hakkimizda-section">
-        <div class="hakkimizda-div">
-            <p class="hakkimizda-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
+        <div class="col-2 features-right">
+            <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
             Quos natus illo nisi distinctio libero nihil voluptatum minus, ratione, sit ipsum rerum eveniet doloribus omnis eum, nam architecto unde. Quod tempora eaque assumenda! Necessitatibus veritatis nobis soluta harum laboriosam?
             Facere maxime laboriosam ea itaque deserunt culpa nulla autem magnam temporibus impedit, mollitia dolores nihil quasi, iure natus distinctio cumque ipsam repellendus. Libero, atque totam animi explicabo dicta minima porro?</p>
-            <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"><div style="margin-top: 30px; margin-left: 70%;" class="button"> MORE... </div></a>
+            <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"> MORE... </a>
            </div>
-        <img src="images/hakkimizda2.jpg" alt="restourant">
-     </section>  
-     <section id="sorusor">
-        <div class="formback">
-        
-        <form action="#" id="iletisim-form">
-            <h3>Sorularınız için iletişime geçin...</h3>
-          <div class="form-group">
-            <label for="name">Adınız:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-      
-          <div class="form-group">
-            <label for="surname">Soyadınız:</label>
-            <input type="text" id="surname" name="surname" required>
-          </div>
-      
-          <div class="form-group">
-            <p>Hangi yemek hakkında soruyorsunuz?</p>
-            <div>
-              <input type="radio" id="yemek" name="konu" value="yemek">
-              <label for="yemek">Yemek</label>
-            </div>
-            <div>
-              <input type="radio" id="siparis" name="konu" value="siparis">
-              <label for="siparis">Sipariş</label>
-            </div>
-          </div>
-      
-          <div class="form-group">
-            <label for="sorun">Sorunuz nedir?</label>
-            <textarea id="sorun" name="sorun" cols="40" rows="5" required></textarea>
-          </div>
-      
-          <div class="form-group">
-            <button type="submit">Gönder</button>
-            <button type="reset">Temizle</button>
-          </div>
-        </form>
+        <div class="col-2">
+            <img src="images/hakkimizda2.jpg" alt="restourant">
         </div>
+        
+     </section>
+
+     <section id="sorusor">
+        <h3 style="margin: 10px auto; color: white;">Sorularınız için iletişime geçin...</h3>
+        <form id="form" action="#">
+        <main class="form-table">
+            <label class="form-label" for="name">Adınız:</label>
+            <input class="form-input" type="text" id="name" >            
+        </main>
+        <main class="form-table">
+            <label class="form-label" for="surname">Soyadınız:</label>
+            <input class="form-input" type="text" id="surname">
+        </main>
+        <div class="clearfix"></div>
+        <main class="form-table">
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-input" type="email" id="email">
+        </main>
+        <main class="form-table">
+            <label class="form-label" for="telno">Tel No:</label>
+            <input class="form-input" type="number" id="telno">
+        </main>
+        <div class="clearfix"></div>
+        <main style="width: 96%;height: 30%; text-align: center;" class="form-table">
+            <label class="form-label" for="metin">Sorunuz:</label>
+            <textarea rows="4" cols="100" name="metin" id="metin"></textarea>
+        </main>
+        <div class="clearfix">
+            <main style="width: 96%;text-align: center; border: none;" class="form-table">
+                <button>GÖNDER</button>
+                <button>TEMİZLE</button>
+            </main>
+        </div>
+
+        </form>
       </section>
-    <footer class="renkarka_amber">
+      <article id="kvkk">
+        <div>
+            <i class="fa-solid fa-eye-slash unvis"></i>
+            <i class="fa-solid fa-eye vis"></i>
+            <p class="kvkk-metin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur ea mollitia fugit! Necessitatibus recusandae voluptas ratione porro sequi molestiae, quod consequuntur doloribus dolorum ullam expedita cum odit, nisi harum voluptates?
+            Corporis modi illum eum consequuntur eius nisi, aut sit velit sint veritatis quod totam voluptas! Consequatur cum sapiente nobis magni sequi eligendi velit sed deleniti, dolorem repudiandae voluptatem quidem laborum!</p>
+        </div>
+      </article>
+    <footer >
+        <nav  >
+           <ul >
+            <li ><a href="https://www.instagram.com/irem.wx06/" target="_blank"><i class="fa-brands fa-instagram"></i>INSTAGRAM</a></li>
+            <li ><a href="mailto:iremtasci83@gmail.com?subject=Merhaba&body=Size mesaj göndermek istiyorum." target="_blank"><i class="fa-solid fa-envelope"></i>EMAİL</a></li>
+            <li ><a href="https://github.com/iremtasci06" target="_blank"><i class="fa-brands fa-github"></i>GITHUB</a></li>
+           </ul>
+        </nav>
         <p>Tüm Hakları Saklıdır.</p>
     </footer> 
   
