@@ -32,6 +32,19 @@
 .btn-primary:hover{
     box-shadow:  rgb(234, 232, 232) 0px 0px 0px 5px;
 }
+.btn-welcome{
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    height: 30px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: .6s;
+}
+.btn-welcome:hover{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+}
 .btn-gray{
     width: 10%;
     height: 50px;

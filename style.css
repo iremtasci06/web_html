@@ -14,11 +14,12 @@ html{height: 100%;}
 header{
     padding:32px 32px;
     width: 100%;
-    background-color: #FFA725;
+    background-color: rgb(255, 167, 37,0.8);
     height: 10%;
     font-family: 'Poppins', sans-serif;
-    position: relative;
+    position: fixed;
     top: 0;
+    z-index: 1;
 }
 .header-logo{
     color: white;
@@ -55,19 +56,23 @@ header{
 }
 .sub-header{
     font-family: 'Poppins', sans-serif;
-    padding: 40px;
+    padding: 10px;
     height: 10%;
     position: absolute;
-    top: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
 .sub-header h2{
     margin-bottom: 10px;
+    color: #ffffffd5;
 }
 #cover{
     background-color: #FFA725;
     height: 100%;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 .articles{
     width: 100%;
@@ -173,7 +178,8 @@ header{
 .recommended-tarif{
     background-color: #99BC85;
     color: #fff;
-    margin:-25px 0;
+    position: relative;
+    top: -20px;
 }
 
 #sorusor{
@@ -234,6 +240,17 @@ header{
 #kvkk .kvkk-metin{
     display: none;
 }
+#backtotop{
+    background-color: #FFA725;
+    color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 30%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    padding:0 8px;
+}
 footer{
     margin-top: 100px;
     padding: 10px;
@@ -274,4 +291,19 @@ footer a{
 .icon-p{
     display: inline;
     margin-left: 5px;
+}
+/*hakkimizda sayfası css*/
+#anahakkimizda{
+    margin-top: 3%;
+}
+#tanitim{
+   width: 100%;
+   height: 50vh;
+   background-image: radial-gradient(circle,  #ffccff,#D91656,  #410445);
+   margin-bottom: 20px;
+   text-align: center;
+}
+.iframe{
+    width: 50%;
+    height: 100%;
 }
