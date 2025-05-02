@@ -11,7 +11,8 @@
 
 </head>
 <body>
-    <header > 
+    <main class="headerimg">
+        <header > 
         <a class="header-logo" href="index.html">YEMEK TARİFLERİM</a>
         <nav class="header-nav">
             <ul class="header-nav-ul">
@@ -21,13 +22,14 @@
             </ul>
         </nav>
     </header>
-    <main class="headerimg">
+        
         <div id="cover">
-            <aside class="sub-header">
-                <h2>Mutlaka denemeniz gereken o yemekler...</h2>
-                <a href="#sorusor">Daha Fazla İçin Sor... </a>
-            </aside>
         </div>
+            <aside class="sub-header">
+                <h2>WELCOME TO WEBSITE</h2>
+                <a class="btn btn-welcome" href="#sorusor">Daha Fazla İçin Sor... </a>
+            </aside>
+        
     </main>
     <div class="articles">
         <div class="article-item" >
@@ -60,32 +62,40 @@
          <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
          Quos natus illo nisi distinctio libero nihil voluptatum minus, ratione, sit ipsum rerum eveniet doloribus omnis eum, nam architecto unde. Quod tempora eaque assumenda! Necessitatibus veritatis nobis soluta harum laboriosam?
          Facere maxime laboriosam ea itaque deserunt culpa nulla autem magnam temporibus impedit, mollitia dolores nihil quasi, iure natus distinctio cumque ipsam repellendus. Libero, atque totam animi explicabo dicta minima porro?</p>
-         <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"> MORE... </a>
+         <a class="button" href="hakkimizda.html" target="_blank"> MORE... </a>
         </div>
      </section>
     <main id="tarifler">
         <h2>Bazı Yemek Tariflerimiz</h2>
         <div class="container ">
         <div  class="col-3">
-            <h3>İçli Köfte</h3>
-            <a href="iclikofte.html" target="_blank" title="içli köfte">
-                <img src="images/iclikofte.webp" alt="içli köfte">
-            </a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ab minus illo quis harum, eius at expedita porro ut consectetur Lorem, ipsum. Lorem ipsum dolor sit.</p>
-            <div><button>View...</button></div>
+            <div class="tarif-box">
+                <h3>İçli Köfte</h3>
+                <a href="iclikofte.html" target="_blank" title="içli köfte">
+                  <!--<img src="images/iclikofte.webp" alt="içli köfte">-->
+                  <div style="background-image: url(images/iclikofte.webp);" class="tarif-box__img"></div>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ab minus illo quis harum, eius at expedita porro ut consectetur Lorem, ipsum. Lorem ipsum dolor sit.</p>
+                <div><button class="btn btn-primary">View...</button></div>
+            </div>
         </div>
         <div  class="col-3">
-            <h3>Kuru Fasülye</h3>
-            <a href="images/kurufasulye.webp" target="_blank"><img src="images/kurufasulye.webp" alt="kurufasülye"></a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quasi soluta enim illo consectetur, dolorem possimus nemo id? Laudantium, eveniet?
-            </p>
-            <div><button>View...</button></div>
+            <div class="tarif-box recommended-tarif">
+                <h2 class="col-3__badge">BEĞENİLEN</h2>
+                <h3>Kuru Fasülye</h3>
+                <div style="background-image: url(images/kurufasulye.webp);" class="tarif-box__img"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quasi soluta enim illo consectetur, dolorem possimus nemo id? Laudantium, eveniet?
+                </p>
+                <div><button class="btn btn-primary">View...</button></div>
+            </div>
         </div>
         <div class="col-3">
-            <h3>Pilav</h3>
-            <a href="images/pilav.webp" target="_blank"><img src="images/pilav.webp" alt="pilav"></a>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem molestiae illum officia perspiciatis reprehenderit, doloremque maxime. </p>
-            <div><button>View...</button></div>
+            <div class="tarif-box">
+                <h3>Pilav</h3>
+                <div style="background-image: url(images/pilav.webp);" class="tarif-box__img"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem molestiae illum officia perspiciatis reprehenderit, doloremque maxime. </p>
+                <div><button class="btn btn-primary">View...</button></div>
+            </div>
         </div>
     </div>
     </main>
@@ -95,7 +105,7 @@
             <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti quod magnam nam dignissimos illo sint beatae, inventore nemo odio odit porro, fugiat hic voluptatum eaque placeat quibusdam ex labore ut!
             Quos natus illo nisi distinctio libero nihil voluptatum minus, ratione, sit ipsum rerum eveniet doloribus omnis eum, nam architecto unde. Quod tempora eaque assumenda! Necessitatibus veritatis nobis soluta harum laboriosam?
             Facere maxime laboriosam ea itaque deserunt culpa nulla autem magnam temporibus impedit, mollitia dolores nihil quasi, iure natus distinctio cumque ipsam repellendus. Libero, atque totam animi explicabo dicta minima porro?</p>
-            <a class="hakkimizda-link" href="hakkimizda.html" target="_blank"> MORE... </a>
+            <a class="button" href="hakkimizda.html" target="_blank"> MORE... </a>
            </div>
         <div class="col-2">
             <img src="images/hakkimizda2.jpg" alt="restourant">
@@ -130,8 +140,8 @@
         </main>
         <div class="clearfix">
             <main style="width: 96%;text-align: center; border: none;" class="form-table">
-                <button>GÖNDER</button>
-                <button>TEMİZLE</button>
+                <button class="btn-gray">GÖNDER</button>
+                <button class="btn-gray">TEMİZLE</button>
             </main>
         </div>
 
