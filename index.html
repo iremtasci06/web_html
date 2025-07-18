@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lezzetli Yemeklerim</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="button.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">-->
 
 </head>
 <body>
@@ -125,11 +124,47 @@
         </div>
         
      </section>
-   
+     <section class="row cards">
+        <div class="container">
+            <h2 style="margin-bottom: 35px;">AŞÇILARIMIZIN ÖNERDİKLERİ</h2>
+            <div class="col-3 card">
+            <div class="card-div">
+                <img class="card-img" src="images/balik.jpg" alt="balık yemeği" >
+                <div class="card-body">
+                    <h3 class="ayar">Balık Yemeği</h3>
+                    <p class="ayar" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, deserunt possimus. Ea assumenda delectus nisi temporibus expedita ipsa minima velit?</p>
+                    <button class="custom-button ">Tıklayın</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 card">
+            <div class="card-div">
+                <img class="card-img" src="images/tavuk.jpg" alt="balık yemeği" >
+                <div class="card-body">
+                    <h3 class="ayar">Tavuk Yemeği</h3>
+                    <p class="ayar" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, deserunt possimus. Ea assumenda delectus nisi temporibus expedita ipsa minima velit?</p>
+                    <button class="custom-button ">Tıklayın</button>
+                </div>
+            </div>
+        </div>
+         <div class="col-3 card">
+            <div class="card-div">
+                <img class="card-img" src="images/kebap.jpg" alt="balık yemeği" >
+                <div class="card-body">
+                    <h3 class="ayar">Kebap Yemeği</h3>
+                    <p class="ayar" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, deserunt possimus. Ea assumenda delectus nisi temporibus expedita ipsa minima velit?</p>
+                    <button class="custom-button ">Tıklayın</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+     </section>
      <section id="sorusor">
         <div class="row">
             <h3 style="margin: 10px auto; color: white;">Sorularınız için iletişime geçin...</h3>
-        <form id="form" action="#">
+            <div class="container">
+                 <form id="form" action="#">
         <main class="form-table">
             <label class="form-label" for="name">Adınız:</label>
             <input class="form-input" type="text" id="name" >            
@@ -138,7 +173,6 @@
             <label class="form-label" for="surname">Soyadınız:</label>
             <input class="form-input" type="text" id="surname">
         </main>
-        <div class="clearfix"></div>
         <main class="form-table">
             <label class="form-label" for="email">Email:</label>
             <input class="form-input" type="email" id="email">
@@ -147,19 +181,23 @@
             <label class="form-label" for="telno">Tel No:</label>
             <input class="form-input" type="number" id="telno">
         </main>
-        <div class="clearfix"></div>
         <main style="width: 96%;height: 30%; text-align: center;" class="form-table">
             <label class="form-label" for="metin">Sorunuz:</label>
             <textarea rows="4" cols="100" name="metin" id="metin"></textarea>
         </main>
-        <div class="clearfix">
+        <main class="form-table check">
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">agree <a href="">Terms &amp; Conditions</a>
+            </label>
+        </main>
             <main style="width: 96%;text-align: center; border: none;" class="form-table">
                 <button class="btn-gray">GÖNDER</button>
                 <button class="btn-gray">TEMİZLE</button>
             </main>
-        </div>
 
         </form>
+            </div>
+       
         </div>
     
       </section>

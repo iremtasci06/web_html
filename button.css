@@ -53,8 +53,27 @@
     border: none;
     background-color: rgb(84, 83, 83);
     color: white;
-    transition-duration: .3s;
+    transition-duration: .5s;
 }
 .btn-gray:hover{
     background-color: rgb(163, 162, 162);
+}
+.custom-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin:10px 10px;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
 }
